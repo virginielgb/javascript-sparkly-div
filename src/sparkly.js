@@ -50,7 +50,7 @@ mySparkle.prototype.moveStars = function ( ) {
 };
 
 mySparkle.prototype.init = function ( elem, n, opt ) { 
-  this.elem = elem;
+  this.elem = $( elem );
   for( var prop in opt )
     this.star[ prop ] = opt[ prop ];
   

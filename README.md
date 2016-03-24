@@ -16,19 +16,19 @@ Add moving stars (or anything else) on any div
 </ul>
 
 <h2 id="usage"> Usage </h2>
-Basic command is `new mySparkle( ).init( $( elem ) , number_of_stars , options );`, with `options` being JSON-parsed CSS properties.
+Basic command is `new mySparkle( ).init( elem_selector , number_of_stars , options );`, with `options` being JSON-parsed CSS properties.
 <h3> Examples </h3>
 In your html file, just add
 ```
 <script>
-  new mySparkle( ).init( $( ".mySparkleDiv" ) , 300 );
+  new mySparkle( ).init( ".mySparkleDiv" , 300 );
 </script>
 ```
 Or even
 ```
 <script>
   var sparks = new mySparkle( );
-  sparks.init( $( ".mySparkleDiv" ) , 150 , {
+  sparks.init( ".mySparkleDiv" , 150 , {
     "width" : "5px",
   } ); // creates 150 stars with a 5px width, in the div(s) with the "mySparkleDiv" class 
 </script>
