@@ -5,7 +5,7 @@ Add moving stars (or anything else) on any div
 <ul>
   <li> <a href="#nutshell"> In a nutshell </a> </li>
   <li> <a href="#usage"> Usage </a> </li>
-  <li> <a href="#dep"> Dependencies </a> </li>
+  <li> <a href="#dependencies"> Dependencies </a> </li>
 </ul>
 
 <h2 id="nutshell"> In a nutshell </h2>
@@ -35,6 +35,6 @@ Or even
 ```
 If no element is specified, then it is assumed that the stars have to be added to the `body`.
 
-<h2 id="dep"> Dependencies </h2>
+<h2 id="dependencies"> Dependencies </h2>
 This requires <a href="http://jquery.com/">jQuery</a> to have been loaded first.
 You can add `<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>` in the head of your HTML file.
