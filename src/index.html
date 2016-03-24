@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sparkly divs</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="sparkly.css">
+		<script src="sparkly.js"></script>
+	</head>
+	<body>
+
+		<div class="black"></div>
+		<div class="thing"></div>
+
+		<script>
+
+			var sparks = new mySparkle( );
+
+			// sparks.init( null , 150 ); // creates 150 stars, and the whole page ( elem = body )
+			sparks.init( $( ".black" ) , 150 ); // creates 150 stars, and the div(s) with the "black" class 
+
+			new mySparkle( ).init( $( ".thing" ) , 300 , {
+			  "width" : "5px",
+			} );
+
+		</script>
+	</body>
+</html>
